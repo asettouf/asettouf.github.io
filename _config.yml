@@ -16,19 +16,24 @@
 title: Yet Another Ranting Developer
 email: adonis.settouf@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  Here is a simple blog relating to the life of a developer, trying to bring out the hassle and a way to solve them, the tips and best practices anyone (sigh) should use.
+  Here is a simple blog relating to the life of a developer, trying to have fun in this desperately
+  corporate world (and don't try to tell me having to create a ssh inside a ssh inside a ssh session is fun!)
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://asettouf.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username:  asettouf
-
+disqus.shortname: asettouf-github-io
 # Build settings
 markdown: kramdown
-theme: minima
+#theme: minima
+
+#theme: jekyll-theme-hacker
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+
+incremental: true
 defaults:
   scope:
     path: "" # an empty string here means all files in the project
