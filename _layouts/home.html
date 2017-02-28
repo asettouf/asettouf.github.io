@@ -14,7 +14,8 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}#disqus_thread">{{ post.title | escape }}</a>
+          <a class="post-link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+          <span class="disqus-comment-count" data-disqus-url="{{ post.url | relative_url }}"
         </h2>
       </li>
     {% endfor %}
