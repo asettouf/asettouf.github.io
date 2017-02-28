@@ -18,7 +18,7 @@ layout: default
           data-disqus-identifier="{{ post.date | date: "%b %-d, %Y" }}">
             {{ post.title | escape }}</a>
             <span class="disqus-comment-count"
-            data-disqus-identifier="{{ post.date | date: "%b %-d, %Y" }}">{{ post.title | escape }}</span>
+            data-disqus-url="{{ post.url | relative_url }}"></span>
         </h2>
       </li>
     {% endfor %}
