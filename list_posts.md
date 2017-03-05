@@ -1,5 +1,5 @@
 ---
-layout: list-posts
+layout: default
 title: Articles
 additional_info: List of articles I wrote
 permalink: /articles/
