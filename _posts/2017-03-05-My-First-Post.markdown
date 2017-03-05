@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  'My-First-Post'
+title:  'My First Post, a rant about my professional experience'
 date: 2017-03-05
 categories: management development Java
 ---
