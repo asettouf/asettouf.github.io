@@ -8,7 +8,7 @@
         data-disqus-identifier="{{ post.date | date: "%b %-d, %Y" }}">
           {{ post.title | escape }}</a>
           {%if jekyll.environment == "production" %}
-            <a class="comment-counts" href="{{ post.url | relative_url }}#disqus_thread"></a>
+            <a class="comment-counts" href="{{ post.url | relative_url }}#disqus_thread">0 comments</a>
           {%endif%}
       </h2>
     </li>
