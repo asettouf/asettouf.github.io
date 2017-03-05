@@ -14,10 +14,10 @@ layout: default
         <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
         <h2>
-          <a class="post-link" href="{{ post.url | relative_url }}#disqus-thread"
+          <a class="post-link" href="{{ post.url | relative_url }}"
           data-disqus-identifier="{{ post.date | date: "%b %-d, %Y" }}">
             {{ post.title | escape }}</a>
-            <a href="{{ post.url | relative_url }}"></a>
+            <a href="{{ post.url | relative_url }}#disqus_thread"></a>
         </h2>
       </li>
     {% endfor %}
