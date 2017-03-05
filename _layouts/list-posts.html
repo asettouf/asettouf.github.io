@@ -2,10 +2,19 @@
 layout: default
 ---
 
-<ul>
+<ul class="post-list">
   {% for post in site.posts %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      <h2>
+        <a class="post-link" href="{{ post.url | relative_url }}"
+        data-disqus-identifier="{{ post.date | date: "%b %-d, %Y" }}">
+          {{ post.title | escape }}</a>
+          {%if jekyll.environment == "production" %}
+            <a class="comment-counts" href="{{ post.url | relative_url }}#disqus_thread"></a>
+          {%endif%}
+      </h2>
     </li>
   {% endfor %}
 </ul>
