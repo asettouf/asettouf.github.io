@@ -2,6 +2,7 @@
 layout: page
 title: About
 permalink: /about/
+order: 1
 ---
 ![Me]({{ site.url }}/assets/picture.jpg){:#my-picture}
 I am a Java developer, interested in every area of computer sciences,

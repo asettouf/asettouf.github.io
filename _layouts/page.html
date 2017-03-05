@@ -4,7 +4,10 @@ layout: default
 <article class="post">
 
   <header class="post-header">
-    <h1 class="post-title">{{ page.title | escape }}</h1>
+    <h1 class="post-title">{{ page.title  | escape }}</h1>
+    {%if page.additional_info %}
+      <h2 class="">{{page.additional_info | escape }}</h1>
+    {% endif %}
   </header>
 
   <div class="post-content">
