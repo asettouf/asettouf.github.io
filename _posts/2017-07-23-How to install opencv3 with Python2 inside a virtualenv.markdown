@@ -112,4 +112,4 @@ Mine for instance is: `(opencv3) ┌─[ado@parrot]─[~]`
 
 If it works congratulations, you have a working virtualenv with opencv3 and video compatible.
 
-P.S: [An article](https://asettouf.github.io/opencv/install/python2/virtualenv/ubuntu/2017/07/23/How-to-install-opencv3-with-Python2-inside-a-virtualenv.html) that helped me a lot to successfully make this installation:
+P.S: [An article](http://www.pyimagesearch.com/2015/07/20/install-opencv-3-0-and-python-3-4-on-ubuntu/) that helped me a lot to successfully make this installation
