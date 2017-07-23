@@ -10,4 +10,4 @@ from the computer graphics to the network security. I am as well really interest
 in a wide variety of topics including philosophy, social networking, and analytics.
 I love to learn new skills and I believe in the *Do It Yourself philosophy* to acquire knowledge.
 
-Don't believe me, check my [`my resume`]({{ site.url }}/assets/asettouf_resume.pdf)
+You can check my resume [`here`]({{ site.url }}/assets/asettouf_resume.pdf)
