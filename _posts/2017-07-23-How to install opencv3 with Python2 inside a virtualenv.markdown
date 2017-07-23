@@ -99,7 +99,7 @@ Mine for instance is: `(opencv3) ┌─[ado@parrot]─[~]`
 * Now link the cv2 library to your virtualenv, normally the following should be ok if you followed a standard install of the components (path of python2 site packages, and creation of the "opencv3" virtualenv):
 
     `ln -s /usr/local/lib/python2.7/site-packages/cv2.so ~/.virtualenvs/opencv3/lib/python2.7/site-packages/cv2.so`
-    
+
 * Now try the below from a python shell, and while having the opencv3 virtualenv active:
 
      {% highlight python %}
@@ -111,3 +111,5 @@ Mine for instance is: `(opencv3) ┌─[ado@parrot]─[~]`
      {% endhighlight %}
 
 If it works congratulations, you have a working virtualenv with opencv3 and video compatible.
+
+P.S: [An article](https://asettouf.github.io/opencv/install/python2/virtualenv/ubuntu/2017/07/23/How-to-install-opencv3-with-Python2-inside-a-virtualenv.html) that helped me a lot to successfully make this installation:
